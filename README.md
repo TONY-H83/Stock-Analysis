@@ -75,7 +75,20 @@ Adding some simple code can make a big difference. As a data analylist I am expe
 
 ![](https://github.com/TONY-H83/Stock-Analysis/blob/main/Resources/Results_Comparison.png)
 
+2. This was an awesome challenge as it was both fun and difficult at the same time. We learned that while there are several different ways we can write the syntax to successful build a macro, they are not all created equally. Some may be very basic and require more steps on the worksheet from the user while some can very complicated and complex. Neither are wrong but one may be much more effiecient. Refactoring our first script demonstrated how by organizing, reducing redundancy, and streamlining the requests, we can end up with a final product that is easy to read, easy to debug, and runs more effieciently. 
 
+> *"The main purpose of code refactoring is pretty clear — to make the code clean, neat, more efficient and maintainable."*
+-> https://lvivity.com/what-is-code-refactoring
+
+Run Times **Before Refactoring**
+
+![](https://github.com/TONY-H83/Stock-Analysis/blob/main/Resources/Run%20times.png)
+
+Runt Times **After Refactoring**
+
+![](https://github.com/TONY-H83/Stock-Analysis/blob/main/Resources/Refactored%20Run%20Times.png)
+
+It's a clear result that through the refactoring process that the 2017 run time was reduced by 
 
 
 
