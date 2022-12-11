@@ -55,7 +55,14 @@ Here are a few of the blocks of code I used to accomplish the above steps.
 
 ![](https://github.com/TONY-H83/Stock-Analysis/blob/main/Resources/All%20Stocks%20Analysis%20FOR%20Loop.png)
 
+The end result of this code compared to the first macro (DQ Analysis) shows the totals for all 11 tickers in the same column. This makes it easy to see the best performing stocks over the past year. In addition to creating this powerful analysis tool, I added some featurtes that alow the user to interact with the worksheet. These useful additions reduce the manual button clicks required by Steve which ultimately increases his productivity and allows him to accomplish more work during his day. 
 
+Adding some simple code can make a big difference. As a data analylist I am expected to deliver a product that streamlines the workflow, is easy to use, and visually pleasing and insighful. Steps I took to acomplish this for Steve were:
+
+1. Formatted the output with the use of **bold** column headers
+2. Color code the annual return column based on value using the ``conditional formatting`` tool in Excel
+3. Created bottons on the sheet that allow the user to "Run All Stocks Analysis" and "Clear Sheet"
+4. Created a ``MsgBox`` that prompts the user to select the year they would like to run the analysis on after pressing the "Run All Stock Analysis" button 
    
 
 ---
