@@ -63,7 +63,11 @@ Adding some simple code can make a big difference. As a data analylist I am expe
 2. Color code the annual return column based on value using the ``conditional formatting`` tool in Excel
 3. Created bottons on the sheet that allow the user to "Run All Stocks Analysis" and "Clear Sheet"
 4. Created a ``MsgBox`` that prompts the user to select the year they would like to run the analysis on after pressing the "Run All Stock Analysis" button 
-   
+
+
+![screen-gif](https://github.com/TONY-H83/Stock-Analysis/blob/main/Resources/Demo.gif)
+
+
 
 ---
 
