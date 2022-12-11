@@ -18,15 +18,15 @@ This was a very great project for two reasons:
 
 
 
-This was my first time using VBA editor so it was a **LOT** of trial and error as I worked through the creation of the script. The first request was to analyze one specific stock ticker "DAQO". This was the ticker that Steve's parents were most interested in knowing the performance. The first step of the macro I built was something as simple as creating the output headers. That required me to list the header names. I used the following to accomplish this:
+This was my first time using VBA editor so it was a **LOT** of trial and error as I worked through the creation of the script. The first request was to analyze one specific stock ticker "DQ". This was the ticker that Steve's parents were most interested in knowing the performance. The first step of the macro I built was something as simple as creating the output headers. That required me to list the header names. I used the following to accomplish this:
 
  ![](https://github.com/TONY-H83/Stock-Analysis/blob/main/Resources/DQ%20Analysis%20Output%20Headers.png)
 
-Next I had to analyze all stocks in order to pull the data for only "DAQO" This was my first use of a **``FOR``** LOOP that I used to loop though all the rows looking for the "DAQO" ticker. Nested inside the **``FOR``** Loop I leveraged **``IF``** statements. Inside the ``**FOR``** LOOP I wrote the commands to analyze the yearly stock reports for the "DQ" ticker, "Starting Prices", and "Ending Prices". Next it summed up the daily volumes to increase the total volume. 
+Next I had to analyze all stocks in order to pull the data for only "DAQO" This was my first use of a **``FOR``** LOOP that I used to loop though all the rows looking for the "DQ" ticker. Nested inside the **``FOR``** Loop I leveraged **``IF``** statements. Inside the ``**FOR``** LOOP I wrote the commands to analyze the yearly stock reports for the "DQ" ticker, "Starting Prices", and "Ending Prices". Next it summed up the daily volumes to increase the total volume. 
 
 ![](https://github.com/TONY-H83/Stock-Analysis/blob/main/Resources/DQ%20Analysis%20FOR%20LOOP.png)
 
-The results from this analysis quickly shows that while Steve's parents are pretty adamant about purchasing "DAQO" stock, it's annual performance dmonstrates it had a negative return of -.06%. 
+The results from this analysis quickly shows that while Steve's parents are pretty adamant about purchasing "DQ" stock, it's annual performance dmonstrates it had a negative return of -.06%. 
 
 ![](https://github.com/TONY-H83/Stock-Analysis/blob/main/Resources/DQ%20Analysis%202018.png)
 
@@ -34,7 +34,7 @@ The results from this analysis quickly shows that while Steve's parents are pret
 
 The next request from Steve was to offer the ability to run the same annual performace analysis on all 11 stock tickers that are present in his reports. This affords Steve to quickly comnpare all tickers in one view. Sorting by the return percentage provides Steve with a picture of each ticker's trend. 
 
-To acomplish this I used the core script from above to create the output headers which were the same as for the "DAQO" ticker anaylisis. Next, I had to create an array of all available tickers in the reports (**This was one of the more manual tasks in this anaylisis**).  Below is a list of the highlevel steps I took to create the anaylisis for all stocks. 
+To acomplish this I used the core script from above to create the output headers which were the same as for the "DQ" ticker anaylisis. Next, I had to create an array of all available tickers in the reports (**This was one of the more manual tasks in this anaylisis**).  Below is a list of the highlevel steps I took to create the anaylisis for all stocks. 
 
 -- I used some of my beginning code form the DQ analysis
 
@@ -67,8 +67,16 @@ Adding some simple code can make a big difference. As a data analylist I am expe
 
 ![screen-gif](https://github.com/TONY-H83/Stock-Analysis/blob/main/Resources/Demo.gif)
 
-
-
 ---
+
+### Results
+
+1. Based on reviewing the results from both 2017 and 2018, Steve can quickly see that his parents desired stock "DQ" performed considerably better in 2017 than 2018. Since the results are color coded Steve can focus his efforts of additional research on both "ENPH" and "RUN" instead of "DQ".
+
+![](https://github.com/TONY-H83/Stock-Analysis/blob/main/Resources/Results_Comparison.png)
+
+
+
+
 
 
