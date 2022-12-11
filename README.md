@@ -14,7 +14,7 @@ This was a very great project for two reasons:
 
 ---
 
-### Analysis
+## Analysis
 
 
 
@@ -69,7 +69,7 @@ Adding some simple code can make a big difference. As a data analylist I am expe
 
 ---
 
-### Results
+## Results
 
 1. Based on reviewing the results from both 2017 and 2018, Steve can quickly see that his parents desired stock "DQ" performed considerably better in 2017 than 2018. Since the results are color coded Steve can focus his efforts of additional research on both "ENPH" and "RUN" instead of "DQ".
 
@@ -88,8 +88,17 @@ Runt Times **After Refactoring**
 
 ![](https://github.com/TONY-H83/Stock-Analysis/blob/main/Resources/Refactored%20Run%20Times.png)
 
-It's a clear result that through the refactoring process that the 2017 run time was reduced by 
+The reults are crystal clear that through the refactoring process the run times vastly improved:
 
+The 2017 run time was reduced by **76%**
 
+The 2018 run time was reduced by **77%**
 
+##Summary
+
+*What are the advantages or disadvantages of refactoring code?*
+
+Refactoring code can improve effieciency, make it easier for other users to read and understand your code,and make code more universal for repurposing.
+
+*How do these pros and cons apply to refactoring the original VBA script?*
 
